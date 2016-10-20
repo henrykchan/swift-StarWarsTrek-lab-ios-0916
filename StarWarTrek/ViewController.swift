@@ -66,7 +66,7 @@ class ViewController: UIViewController {
             let detailView = segue.destination as! DetailViewController
             detailView.starWarsImage = starWarsCharacter.image
             detailView.starTrekImage = starTrekCharacter.image
-            print("hewiofjiwjfioweiofjow")
+           
         }
         
     }
@@ -81,7 +81,7 @@ class ViewController: UIViewController {
         chosenImageView.layer.borderColor = UIColor.green.cgColor
         starWarsCharacter = chosenImageView
         checkForFight()
-        print ("StarWARSSSSSSS")
+        
     }
     
     
@@ -93,7 +93,7 @@ class ViewController: UIViewController {
         chosenImageView.layer.borderColor = UIColor.green.cgColor
         starTrekCharacter = chosenImageView
         checkForFight()
-        print ("Star TREKKKKKK")
+        
         
     }
     

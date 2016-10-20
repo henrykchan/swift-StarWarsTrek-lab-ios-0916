@@ -53,7 +53,7 @@ class DetailViewController: UIViewController {
         let point = sender.location(in: view)
         let draggedView = sender.view as! UIImageView
         draggedView.center = point
-        print("Draggggggggging")
+        
         
     }
 
