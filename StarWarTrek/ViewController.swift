@@ -106,10 +106,7 @@ class ViewController: UIViewController {
         }
     }
     
-    func panGesture() {
-        
-        
-    }
+    
     
     
     
